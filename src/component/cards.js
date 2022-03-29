@@ -4,8 +4,8 @@ export default class Cards extends Component {
     render() {
         let { bookTitle, descrption, imageUrl, selfLink , author , publisher } = this.props
         return (
-            <div className="card" style={{height:"500px", width:"350px"}}>
-                <img src={imageUrl} className="card-img-top" alt="..."  style={{height:"50%"}}/>
+            <div className="card " style={{height:"800px", width:"350px"}} >
+                <img src={imageUrl} className="card-img-top" alt="..."  style={{height:"60%"}}/>
                 <div className="card-body">
                     <h5 className="card-title">{bookTitle}</h5>
                     <h6> by {author}</h6>
